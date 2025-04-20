@@ -311,7 +311,7 @@
       const chat = chatData[currentUser];
       const callModal = document.getElementById('callModal');
       document.getElementById('callType').innerText = type === 'voice' ? 'Voice Call' : 'Video Call';
-      document.getElementById('callUser').innerText = Connecting with ${chat.name}...;
+      document.getElementById('callUser').innerText = `Connecting with ${chat.name}`;
       callModal.classList.add('active');
     }
 
